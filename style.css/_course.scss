@@ -1,0 +1,158 @@
+.all-course-container{
+    background-color: #dadada;
+}
+.course-title{
+    font-size: 2vw;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.courses-span{
+    font-weight: 700;
+    color: #004446;
+}
+.all-books{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2.5vw;
+}
+.lean-more-course{
+    padding: 1.2vw 3vw;
+    outline: none;
+    border: none;
+    font-size: 1.2vw;
+    cursor: pointer;
+    background-color: #1fbd1f;
+    border-radius: 4px;
+    color: #fff;
+}
+.course-details{
+    width: 50%;
+}
+.main-details-text{
+font-size: 1vw;
+}
+.course{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 1vw 3vw;
+   
+   
+    
+}
+.course-images{
+    overflow: hidden;
+
+}
+.all-course{
+    margin: 2vw 0;
+    width: 25vw;
+    padding: 3vw;
+background-color: #fff;
+border-radius: 0.5vw;
+}
+.profile-images{
+    height: 3vw;
+    border-radius: 50px;
+}
+.coursepic{
+    width: 100%;
+  border-radius: 0.5vw;
+  transition: 1s all;
+}
+.coursepic:hover{
+    transform: scale(1.1);
+   
+    transition-timing-function: linear;
+
+}
+figcaption{
+    font-weight: 700;
+    font-size: 1vw;
+    margin: 0.2vw 0;
+    cursor: pointer;
+}
+small{
+    font-size: 0.8vw;
+    color: #272627fe;
+}
+.post-details{
+    display: flex;
+    align-items: center;
+    margin: 1vw 0;
+}
+.image{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1vw;
+}
+
+.post-update{
+    margin-left: 1vw;
+}
+.post-update h6{
+    font-size: 0.9vw;
+}
+.post-update p{
+    font-size: 0.8vw;
+    color: #6b6b6b;
+}
+@media (max-width:600px) {
+  .course{
+    display: flex;
+    flex-direction: column;
+
+   } 
+   .all-course{
+    width: 100%;
+   }
+   figcaption{
+    font-size: 4.7vw;
+   }
+  .course .all-course small{
+    font-size: 3.5vw;
+   }
+   .image{
+    height: 100px;
+    width: 100px;
+   padding: 0;
+   
+   }
+ .profile-images{
+   height: 15vw;
+   }
+   .post-update h6{
+    font-size: 3.9vw;
+   }
+   .post-update p{
+    font-size:2.8vw;
+    
+   }
+   .all-books{
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+   }
+   .course-title{
+    font-size: 10vw;
+   }
+   .course-details{
+    width: 95%;
+    margin: 2vw 0;
+   }
+   .main-details-text{
+    font-size: 4.5vw;
+   }
+   .lean-more-course{
+    padding: 4vw 6vw;
+    font-size: 3vw;
+    margin: 2vw 0;
+   }
+}
